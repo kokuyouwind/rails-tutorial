@@ -1,0 +1,1015 @@
+12:53:40 - INFO - Guard is using Tmux to send notifications.
+12:53:40 - INFO - Guard is using TerminalTitle to send notifications.
+12:53:41 - INFO - Guard::RSpec is running
+[0m12:53:41 - INFO - Running all specs
+12:53:49 - INFO - Guard is now watching at '/home/ubuntu/workspace/first_app'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:67: [BUG] Segmentation fault
+ruby 2.0.0p598 (2014-11-13 revision 48408) [x86_64-linux]
+
+-- Control frame information -----------------------------------------------
+c:0029 p:---- s:0098 e:000097 CFUNC  :initialize
+c:0028 p:---- s:0096 e:000095 CFUNC  :new
+c:0027 p:0128 s:0092 e:000088 METHOD /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:67
+c:0026 p:0019 s:0084 e:000080 METHOD /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:41
+c:0025 p:0395 s:0076 e:000075 CLASS  /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:167
+c:0024 p:0009 s:0074 e:000073 TOP    /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:34 [FINISH]
+c:0023 p:---- s:0072 e:000071 CFUNC  :require
+c:0022 p:0015 s:0068 e:000067 TOP    /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/ffi.rb:32 [FINISH]
+c:0021 p:---- s:0066 e:000065 CFUNC  :require
+c:0020 p:0171 s:0062 e:000061 TOP    /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi.rb:19 [FINISH]
+c:0019 p:---- s:0060 e:000059 CFUNC  :require
+c:0018 p:0007 s:0056 e:000055 TOP    /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rb-inotify-0.9.5/lib/rb-inotify/native.rb:1 [FINISH]
+c:0017 p:---- s:0054 e:000053 CFUNC  :require
+c:0016 p:0007 s:0050 e:000049 TOP    /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rb-inotify-0.9.5/lib/rb-inotify.rb:1 [FINISH]
+c:0015 p:---- s:0048 e:000047 CFUNC  :require
+c:0014 p:0009 s:0044 e:000043 METHOD /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/linux.rb:29
+c:0013 p:0078 s:0039 E:001898 BLOCK  /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/base.rb:50 [FINISH]
+c:0012 p:---- s:0035 e:000034 CFUNC  :each
+c:0011 p:0052 s:0032 E:001818 METHOD /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/base.rb:41
+c:0010 p:0007 s:0029 e:000028 METHOD /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/base.rb:55 [FINISH]
+c:0009 p:---- s:0026 e:000025 CFUNC  :public_send
+c:0008 p:0040 s:0022 e:000021 METHOD /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/calls.rb:26
+c:0007 p:0025 s:0017 e:000016 METHOD /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/calls.rb:63
+c:0006 p:0011 s:0011 e:000010 BLOCK  /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/cell.rb:60
+c:0005 p:0041 s:0009 e:000008 BLOCK  /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/cell.rb:71
+c:0004 p:0026 s:0007 e:000006 BLOCK  /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/actor.rb:357
+c:0003 p:0073 s:0005 e:000004 BLOCK  /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/tasks.rb:57
+c:0002 p:0060 s:0003 e:000002 BLOCK  /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/tasks/task_fiber.rb:15 [FINISH]
+c:0001 p:---- s:0001 e:000000 ------
+
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/tasks/task_fiber.rb:15:in `block in create'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/tasks.rb:57:in `block in initialize'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/actor.rb:357:in `block in task'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/cell.rb:71:in `block in task'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/cell.rb:60:in `block in invoke'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/calls.rb:63:in `dispatch'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/calls.rb:26:in `dispatch'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/calls.rb:26:in `public_send'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/base.rb:55:in `start'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/base.rb:41:in `configure'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/base.rb:41:in `each'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/base.rb:50:in `block in configure'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/linux.rb:29:in `_configure'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/linux.rb:29:in `require'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rb-inotify-0.9.5/lib/rb-inotify.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rb-inotify-0.9.5/lib/rb-inotify.rb:1:in `require'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rb-inotify-0.9.5/lib/rb-inotify/native.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rb-inotify-0.9.5/lib/rb-inotify/native.rb:1:in `require'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi.rb:19:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi.rb:19:in `require'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/ffi.rb:32:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/ffi.rb:32:in `require'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:34:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:167:in `<module:FFI>'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:41:in `typedef'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:67:in `find_type'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:67:in `new'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/types.rb:67:in `initialize'
+
+-- C level backtrace information -------------------------------------------
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x17b6a8) [0x7f53eb3846a8]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1e8d9a) [0x7f53eb3f1d9a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_bug+0xb3) [0x7f53eb3f3013]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0xf2ff6) [0x7f53eb2fbff6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10340) [0x7f53eadd6340] AbstractMemory.h:118
+/usr/local/rvm/rubies/ruby-2.1.5/lib/libruby.so.2.1(rb_funcallv+0xd) [0x7f53979d93ed] vm_eval.c:586
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi_c.so(+0x19c14) [0x7f5397cf4c14] MappedType.c:86
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16dbbf) [0x7f53eb376bbf]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16ef0b) [0x7f53eb377f0b]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_class_new_instance+0x21) [0x7f53eb2818b1]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1645c4) [0x7f53eb36d5c4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1727ad) [0x7f53eb37b7ad]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1690c5) [0x7f53eb3720c5]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16cd3a) [0x7f53eb375d3a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_iseq_eval+0x1b6) [0x7f53eb382266]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1ef606) [0x7f53eb3f8606]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_require_safe+0x554) [0x7f53eb3f9fe4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1645c4) [0x7f53eb36d5c4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1727ad) [0x7f53eb37b7ad]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1690c5) [0x7f53eb3720c5]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16cd3a) [0x7f53eb375d3a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_iseq_eval+0x1b6) [0x7f53eb382266]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1ef606) [0x7f53eb3f8606]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_require_safe+0x554) [0x7f53eb3f9fe4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1645c4) [0x7f53eb36d5c4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1727ad) [0x7f53eb37b7ad]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1690c5) [0x7f53eb3720c5]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16cd3a) [0x7f53eb375d3a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_iseq_eval+0x1b6) [0x7f53eb382266]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1ef606) [0x7f53eb3f8606]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_require_safe+0x554) [0x7f53eb3f9fe4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1645c4) [0x7f53eb36d5c4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1727ad) [0x7f53eb37b7ad]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1690c5) [0x7f53eb3720c5]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16cd3a) [0x7f53eb375d3a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_iseq_eval+0x1b6) [0x7f53eb382266]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1ef606) [0x7f53eb3f8606]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_require_safe+0x554) [0x7f53eb3f9fe4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1645c4) [0x7f53eb36d5c4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1727ad) [0x7f53eb37b7ad]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1690c5) [0x7f53eb3720c5]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16cd3a) [0x7f53eb375d3a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_iseq_eval+0x1b6) [0x7f53eb382266]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1ef606) [0x7f53eb3f8606]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_require_safe+0x554) [0x7f53eb3f9fe4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1645c4) [0x7f53eb36d5c4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1727ad) [0x7f53eb37b7ad]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1690c5) [0x7f53eb3720c5]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16cd3a) [0x7f53eb375d3a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_yield+0x48d) [0x7f53eb38104d]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(rb_ary_each+0x52) [0x7f53eb3a7d22]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1645c4) [0x7f53eb36d5c4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1727ad) [0x7f53eb37b7ad]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16904e) [0x7f53eb37204e]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16cd3a) [0x7f53eb375d3a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16dad4) [0x7f53eb376ad4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16ef0b) [0x7f53eb377f0b]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1700ae) [0x7f53eb3790ae]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1645c4) [0x7f53eb36d5c4]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x1727ad) [0x7f53eb37b7ad]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16904e) [0x7f53eb37204e]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x16cd3a) [0x7f53eb375d3a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x171806) [0x7f53eb37a806]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x17184a) [0x7f53eb37a84a]
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard(+0x190572) [0x7f53eb399572]
+/lib/x86_64-linux-gnu/libc.so.6(+0x498b0) [0x7f53ea0fe8b0] bignum.c:6860
+
+-- Other runtime information -----------------------------------------------
+
+* Loaded script: /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+
+* Loaded features:
+
+    0 enumerator.so
+    1 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/encdb.so
+    2 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/transdb.so
+    3 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/rbconfig.rb
+    4 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/compatibility.rb
+    5 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/defaults.rb
+    6 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/deprecate.rb
+    7 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/errors.rb
+    8 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/version.rb
+    9 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/requirement.rb
+   10 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/platform.rb
+   11 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/specification.rb
+   12 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/exceptions.rb
+   13 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/core_ext/kernel_gem.rb
+   14 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/thread.rb
+   15 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/monitor.rb
+   16 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb
+   17 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems.rb
+   18 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/pathname.so
+   19 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/pathname.rb
+   20 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/constants.rb
+   21 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/user_interaction.rb
+   22 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/etc.so
+   23 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/config_file.rb
+   24 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/rubygems_integration.rb
+   25 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/current_ruby.rb
+   26 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/dependency.rb
+   27 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/shared_helpers.rb
+   28 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/fileutils.rb
+   29 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/gem_path_manipulation.rb
+   30 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/gem_helpers.rb
+   31 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/match_platform.rb
+   32 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/rubygems_ext.rb
+   33 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/version.rb
+   34 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler.rb
+   35 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/settings.rb
+   36 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/path_support.rb
+   37 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest.so
+   38 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/digest.rb
+   39 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest/sha1.so
+   40 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/set.rb
+   41 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/definition.rb
+   42 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/dependency.rb
+   43 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/ruby_dsl.rb
+   44 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/dsl.rb
+   45 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/source_list.rb
+   46 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/source.rb
+   47 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri/common.rb
+   48 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri/generic.rb
+   49 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri/ftp.rb
+   50 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri/http.rb
+   51 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri/https.rb
+   52 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri/ldap.rb
+   53 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri/ldaps.rb
+   54 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri/mailto.rb
+   55 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/uri.rb
+   56 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/cgi/core.rb
+   57 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/cgi/util.rb
+   58 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/cgi/cookie.rb
+   59 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/cgi.rb
+   60 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/socket.so
+   61 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/socket.rb
+   62 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fcntl.so
+   63 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/timeout.rb
+   64 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/openssl.so
+   65 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/openssl/bn.rb
+   66 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/openssl/cipher.rb
+   67 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/stringio.so
+   68 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/openssl/config.rb
+   69 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/openssl/digest.rb
+   70 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/openssl/x509.rb
+   71 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/openssl/buffering.rb
+   72 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/openssl/ssl.rb
+   73 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/openssl.rb
+   74 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/securerandom.rb
+   75 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/resolv.rb
+   76 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/remote_fetcher.rb
+   77 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/text.rb
+   78 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/name_tuple.rb
+   79 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/rubygems/spec_fetcher.rb
+   80 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/source/rubygems.rb
+   81 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/ruby_version.rb
+   82 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/strscan.so
+   83 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/source/path.rb
+   84 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/source/git.rb
+   85 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/lockfile_parser.rb
+   86 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/lazy_specification.rb
+   87 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/tsort.rb
+   88 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/forwardable.rb
+   89 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/spec_set.rb
+   90 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/environment.rb
+   91 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/runtime.rb
+   92 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/index.rb
+   93 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/remote_specification.rb
+   94 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/endpoint_specification.rb
+   95 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/dep_proxy.rb
+   96 /usr/local/rvm/gems/ruby-2.1.5@global/gems/bundler-1.7.6/lib/bundler/setup.rb
+   97 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/commander.rb
+   98 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/deprecated_methods.rb
+   99 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/date_core.so
+  100 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/date/format.rb
+  101 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/date.rb
+  102 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/time.rb
+  103 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/prettyprint.rb
+  104 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/pp.rb
+  105 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/lumberjack-1.0.9/lib/lumberjack.rb
+  106 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/core_ext/hash_with_indifferent_access.rb
+  107 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/options.rb
+  108 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/ui/colors.rb
+  109 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/ui.rb
+  110 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/deprecator.rb
+  111 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/guardfile/evaluator.rb
+  112 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/guardfile/generator.rb
+  113 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/guardfile.rb
+  114 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/input_lock.rb
+  115 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/exceptions.rb
+  116 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/helpers/base_helpers.rb
+  117 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/hooks.rb
+  118 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/method_source-0.8.2/lib/method_source/version.rb
+  119 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/method_source-0.8.2/lib/method_source/source_location.rb
+  120 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/method_source-0.8.2/lib/method_source/code_helpers.rb
+  121 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/method_source-0.8.2/lib/method_source.rb
+  122 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/shellwords.rb
+  123 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/coderay-1.1.0/lib/coderay/version.rb
+  124 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/coderay-1.1.0/lib/coderay.rb
+  125 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/slop-3.6.0/lib/slop/option.rb
+  126 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/slop-3.6.0/lib/slop/commands.rb
+  127 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/slop-3.6.0/lib/slop.rb
+  128 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/delegate.rb
+  129 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/tmpdir.rb
+  130 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/tempfile.rb
+  131 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/version.rb
+  132 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/repl.rb
+  133 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/rbx_path.rb
+  134 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/code/loc.rb
+  135 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/code/code_range.rb
+  136 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/code/code_file.rb
+  137 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/code.rb
+  138 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/history_array.rb
+  139 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/helpers/options_helpers.rb
+  140 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/helpers/command_helpers.rb
+  141 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/helpers/text.rb
+  142 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/helpers/table.rb
+  143 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/helpers.rb
+  144 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/code_object.rb
+  145 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/helpers/documentation_helpers.rb
+  146 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/method/weird_method_locator.rb
+  147 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/method/disowned.rb
+  148 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/method/patcher.rb
+  149 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/method.rb
+  150 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/module_candidate.rb
+  151 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/wrapped_module.rb
+  152 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/history.rb
+  153 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/command.rb
+  154 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/command_set.rb
+  155 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/switch_to.rb
+  156 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/import_set.rb
+  157 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/exit.rb
+  158 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/grep.rb
+  159 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/formatter.rb
+  160 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/globals.rb
+  161 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/interrogatable.rb
+  162 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/constants.rb
+  163 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/jruby_hacks.rb
+  164 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/methods_helper.rb
+  165 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/methods.rb
+  166 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/self_methods.rb
+  167 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/instance_vars.rb
+  168 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/local_names.rb
+  169 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/local_vars.rb
+  170 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls/ls_entity.rb
+  171 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ls.rb
+  172 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/stat.rb
+  173 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/reload_code.rb
+  174 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/gem_list.rb
+  175 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/reset.rb
+  176 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/pry_backtrace.rb
+  177 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/play.rb
+  178 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/gem_install.rb
+  179 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/hist.rb
+  180 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/gem_open.rb
+  181 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/gist.rb
+  182 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/whereami.rb
+  183 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/edit/exception_patcher.rb
+  184 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/edit/file_and_line_locator.rb
+  185 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/edit.rb
+  186 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/bang.rb
+  187 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/cat/abstract_formatter.rb
+  188 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/cat/input_expression_formatter.rb
+  189 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/cat/exception_formatter.rb
+  190 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/cat/file_formatter.rb
+  191 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/cat.rb
+  192 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/show_info.rb
+  193 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/show_doc.rb
+  194 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/change_prompt.rb
+  195 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/exit_all.rb
+  196 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/nesting.rb
+  197 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/code_collector.rb
+  198 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/save_file.rb
+  199 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/install_command.rb
+  200 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/find_method.rb
+  201 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/easter_eggs.rb
+  202 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/help.rb
+  203 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/list_prompts.rb
+  204 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/list_inspectors.rb
+  205 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/pry_version.rb
+  206 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/show_input.rb
+  207 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/change_inspector.rb
+  208 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/show_source.rb
+  209 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/shell_command.rb
+  210 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/bang_pry.rb
+  211 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/disabled_commands.rb
+  212 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/exit_program.rb
+  213 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/wtf.rb
+  214 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/disable_pry.rb
+  215 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/fix_indent.rb
+  216 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/raise_up.rb
+  217 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/shell_mode.rb
+  218 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/toggle_color.rb
+  219 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/cd.rb
+  220 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/jump_to.rb
+  221 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/gem_cd.rb
+  222 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/simple_prompt.rb
+  223 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/watch_expression/expression.rb
+  224 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/watch_expression.rb
+  225 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/ri.rb
+  226 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands/amend_line.rb
+  227 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/commands.rb
+  228 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/plugins.rb
+  229 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/core_extensions.rb
+  230 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/config/behavior.rb
+  231 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/config/default.rb
+  232 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/config/convenience.rb
+  233 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/config.rb
+  234 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/pry_class.rb
+  235 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/pry_instance.rb
+  236 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/cli.rb
+  237 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/coderay-1.1.0/lib/coderay/helpers/plugin.rb
+  238 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/coderay-1.1.0/lib/coderay/encoder.rb
+  239 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/coderay-1.1.0/lib/coderay/encoders/_map.rb
+  240 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/coderay-1.1.0/lib/coderay/encoders/terminal.rb
+  241 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/color_printer.rb
+  242 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/terminal.rb
+  243 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/pager.rb
+  244 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/editor.rb
+  245 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/rubygem.rb
+  246 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/indent.rb
+  247 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/last_exception.rb
+  248 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/prompt.rb
+  249 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/inspector.rb
+  250 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/object_path.rb
+  251 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry/output.rb
+  252 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/pry-0.10.1/lib/pry.rb
+  253 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/commands/all.rb
+  254 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/commands/change.rb
+  255 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/syntax_error.rb
+  256 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/psych.so
+  257 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/nodes/node.rb
+  258 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/nodes/stream.rb
+  259 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/nodes/document.rb
+  260 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/nodes/sequence.rb
+  261 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/nodes/scalar.rb
+  262 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/nodes/mapping.rb
+  263 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/nodes/alias.rb
+  264 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/nodes.rb
+  265 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/streaming.rb
+  266 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/visitors/visitor.rb
+  267 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/scalar_scanner.rb
+  268 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/visitors/to_ruby.rb
+  269 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/visitors/emitter.rb
+  270 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/visitors/yaml_tree.rb
+  271 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/json/ruby_events.rb
+  272 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/visitors/json_tree.rb
+  273 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/visitors/depth_first.rb
+  274 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/visitors.rb
+  275 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/handler.rb
+  276 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/tree_builder.rb
+  277 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/parser.rb
+  278 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/omap.rb
+  279 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/set.rb
+  280 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/coder.rb
+  281 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/core_ext.rb
+  282 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/deprecated.rb
+  283 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/stream.rb
+  284 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/json/yaml_events.rb
+  285 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/json/tree_builder.rb
+  286 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/json/stream.rb
+  287 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych/handlers/document_stream.rb
+  288 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/psych.rb
+  289 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/yaml.rb
+  290 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/base.rb
+  291 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/emacs.rb
+  292 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/file_notifier.rb
+  293 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/gntp.rb
+  294 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/growl_notify.rb
+  295 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/growl.rb
+  296 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/libnotify.rb
+  297 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/notifysend.rb
+  298 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/rb_notifu.rb
+  299 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/terminal_notifier.rb
+  300 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/terminal_title.rb
+  301 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifiers/tmux.rb
+  302 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/notifier.rb
+  303 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/commands/notification.rb
+  304 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/commands/pause.rb
+  305 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/commands/reload.rb
+  306 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/commands/scope.rb
+  307 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/formatador-0.2.5/lib/formatador/table.rb
+  308 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/formatador-0.2.5/lib/formatador/progressbar.rb
+  309 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/formatador-0.2.5/lib/formatador.rb
+  310 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/dsl_describer.rb
+  311 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/commands/show.rb
+  312 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/interactor.rb
+  313 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/watcher.rb
+  314 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/dsl.rb
+  315 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/group.rb
+  316 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/plugin_util.rb
+  317 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/runner.rb
+  318 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/logger.rb
+  319 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/exceptions.rb
+  320 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/calls.rb
+  321 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/call_chain.rb
+  322 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/condition.rb
+  323 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fiber.so
+  324 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/fiber.rb
+  325 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/thread.rb
+  326 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/core_ext.rb
+  327 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/cpu_counter.rb
+  328 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/fsm.rb
+  329 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/internal_pool.rb
+  330 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/links.rb
+  331 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/logger.rb
+  332 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/mailbox.rb
+  333 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/evented_mailbox.rb
+  334 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/method.rb
+  335 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/properties.rb
+  336 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/handlers.rb
+  337 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/timers-4.0.1/lib/timers/version.rb
+  338 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/paths.rb
+  339 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/version.rb
+  340 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/2.0/hitimes.so
+  341 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/stats.rb
+  342 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/mutexed_stats.rb
+  343 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/metric.rb
+  344 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/value_metric.rb
+  345 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/timed_metric.rb
+  346 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/timed_value_metric.rb
+  347 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes.rb
+  348 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/timers-4.0.1/lib/timers/timer.rb
+  349 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/timers-4.0.1/lib/timers/events.rb
+  350 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/timers-4.0.1/lib/timers/group.rb
+  351 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/timers-4.0.1/lib/timers/wait.rb
+  352 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/timers-4.0.1/lib/timers.rb
+  353 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/receivers.rb
+  354 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/registry.rb
+  355 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/responses.rb
+  356 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/signals.rb
+  357 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/stack_dump.rb
+  358 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/system_events.rb
+  359 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/tasks/task_fiber.rb
+  360 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/tasks/task_thread.rb
+  361 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/tasks.rb
+  362 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/task_set.rb
+  363 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/thread_handle.rb
+  364 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/uuid.rb
+  365 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/proxies/abstract_proxy.rb
+  366 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/proxies/sync_proxy.rb
+  367 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/proxies/cell_proxy.rb
+  368 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/proxies/actor_proxy.rb
+  369 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/proxies/async_proxy.rb
+  370 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/proxies/future_proxy.rb
+  371 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/proxies/block_proxy.rb
+  372 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/actor.rb
+  373 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/cell.rb
+  374 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/future.rb
+  375 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/actor_system.rb
+  376 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/pool_manager.rb
+  377 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/supervision_group.rb
+  378 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/supervisor.rb
+  379 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/notifications.rb
+  380 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/logging/log_event.rb
+  381 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/logging/incident.rb
+  382 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/logging/ring_buffer.rb
+  383 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/logging/incident_logger.rb
+  384 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/logging/incident_reporter.rb
+  385 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/logging.rb
+  386 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid/legacy.rb
+  387 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/celluloid-0.16.0/lib/celluloid.rb
+  388 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/version.rb
+  389 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/options.rb
+  390 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/base.rb
+  391 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/bsd.rb
+  392 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/internals/thread_pool.rb
+  393 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/darwin.rb
+  394 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/linux.rb
+  395 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/polling.rb
+  396 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter/windows.rb
+  397 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/adapter.rb
+  398 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/file.rb
+  399 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/directory.rb
+  400 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/change.rb
+  401 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/record/entry.rb
+  402 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/record/symlink_detector.rb
+  403 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/record.rb
+  404 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/silencer.rb
+  405 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/queue_optimizer.rb
+  406 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/English.rb
+  407 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/internals/logging.rb
+  408 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen/listener.rb
+  409 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/listen-2.8.5/lib/listen.rb
+  410 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/setuper.rb
+  411 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard.rb
+  412 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/command.rb
+  413 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/core_ext/ordered_hash.rb
+  414 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/error.rb
+  415 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/invocation.rb
+  416 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/parser/argument.rb
+  417 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/parser/arguments.rb
+  418 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/parser/option.rb
+  419 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/parser/options.rb
+  420 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/parser.rb
+  421 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/shell.rb
+  422 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/line_editor/basic.rb
+  423 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/readline.so
+  424 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/line_editor/readline.rb
+  425 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/line_editor.rb
+  426 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/util.rb
+  427 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/base.rb
+  428 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor.rb
+  429 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/version.rb
+  430 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/cli.rb
+  431 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/io/console.so
+  432 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/shell/basic.rb
+  433 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/thor-0.19.1/lib/thor/shell/color.rb
+  434 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/plugin/hooker.rb
+  435 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/plugin/base.rb
+  436 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-2.6.1/lib/guard/guard.rb
+  437 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-rspec-2.5.0/lib/guard/rspec.rb
+  438 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-rspec-2.5.0/lib/guard/rspec/inspector.rb
+  439 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/drb/eq.rb
+  440 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/drb/invokemethod.rb
+  441 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/drb/drb.rb
+  442 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/filter_manager.rb
+  443 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/dsl.rb
+  444 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/extensions/kernel.rb
+  445 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/extensions/instance_eval_with_args.rb
+  446 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/extensions/module_eval_with_args.rb
+  447 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/extensions/ordered.rb
+  448 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/ruby_project.rb
+  449 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/load_path.rb
+  450 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/deprecation.rb
+  451 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/backward_compatibility.rb
+  452 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/reporter.rb
+  453 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/metadata_hash_builder.rb
+  454 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/hooks.rb
+  455 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/memoized_helpers.rb
+  456 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/metadata.rb
+  457 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/pending.rb
+  458 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/formatters.rb
+  459 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/world.rb
+  460 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb
+  461 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/project_initializer.rb
+  462 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/optparse.rb
+  463 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/option_parser.rb
+  464 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/erb.rb
+  465 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/configuration_options.rb
+  466 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/command_line.rb
+  467 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/runner.rb
+  468 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/example.rb
+  469 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/shared_example_group.rb
+  470 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/example_group.rb
+  471 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core/version.rb
+  472 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-core-2.13.1/lib/rspec/core.rb
+  473 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/extensions/array.rb
+  474 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/extensions/object.rb
+  475 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/extensions.rb
+  476 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/extensions/instance_eval_with_args.rb
+  477 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/pretty.rb
+  478 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/built_in/base_matcher.rb
+  479 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/built_in.rb
+  480 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/matcher.rb
+  481 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/operator_matcher.rb
+  482 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/be_close.rb
+  483 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/generated_descriptions.rb
+  484 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/method_missing.rb
+  485 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/compatibility.rb
+  486 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/dsl.rb
+  487 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/built_in/match_array.rb
+  488 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers.rb
+  489 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/expectation_target.rb
+  490 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/syntax.rb
+  491 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/matchers/configuration.rb
+  492 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/fail_with.rb
+  493 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/errors.rb
+  494 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/deprecation.rb
+  495 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/handler.rb
+  496 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/version.rb
+  497 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/diff-lcs-1.2.5/lib/diff/lcs/change.rb
+  498 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/diff-lcs-1.2.5/lib/diff/lcs/callbacks.rb
+  499 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/diff-lcs-1.2.5/lib/diff/lcs/internals.rb
+  500 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/diff-lcs-1.2.5/lib/diff/lcs.rb
+  501 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/diff-lcs-1.2.5/lib/diff/lcs/block.rb
+  502 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/diff-lcs-1.2.5/lib/diff/lcs/hunk.rb
+  503 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations/differ.rb
+  504 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-expectations-2.13.0/lib/rspec/expectations.rb
+  505 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/configuration.rb
+  506 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/extensions/instance_exec.rb
+  507 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/instance_method_stasher.rb
+  508 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/method_double.rb
+  509 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/methods.rb
+  510 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/argument_matchers.rb
+  511 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/proxy.rb
+  512 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/test_double.rb
+  513 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/mock.rb
+  514 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/argument_list_matcher.rb
+  515 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/message_expectation.rb
+  516 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/order_group.rb
+  517 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/errors.rb
+  518 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/error_generator.rb
+  519 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/space.rb
+  520 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/extensions/marshal.rb
+  521 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/extensions/psych.rb
+  522 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/serialization.rb
+  523 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/any_instance/chain.rb
+  524 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/any_instance/stub_chain.rb
+  525 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/any_instance/stub_chain_chain.rb
+  526 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/any_instance/expectation_chain.rb
+  527 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/any_instance/message_chains.rb
+  528 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/any_instance/recorder.rb
+  529 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/any_instance.rb
+  530 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/mutate_const.rb
+  531 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/framework.rb
+  532 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/version.rb
+  533 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks/example_methods.rb
+  534 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-mocks-2.13.1/lib/rspec/mocks.rb
+  535 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-2.13.0/lib/rspec/version.rb
+  536 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/rspec-2.13.0/lib/rspec.rb
+  537 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/guard-rspec-2.5.0/lib/guard/rspec/runner.rb
+  538 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/single_byte.so
+  539 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16le.so
+  540 /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16be.so
+  541 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi_c.so
+  542 /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi/platform.rb
+
+* Process memory map:
+
+7f538c000000-7f538c09e000 rw-p 00000000 00:00 0 
+7f538c09e000-7f5390000000 ---p 00000000 00:00 0 
+7f5390000000-7f5390024000 rw-p 00000000 00:00 0 
+7f5390024000-7f5394000000 ---p 00000000 00:00 0 
+7f53973e1000-7f53973f7000 r-xp 00000000 00:299 82                        /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f53973f7000-7f53975f6000 ---p 00016000 00:299 82                        /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f53975f6000-7f53975f7000 rw-p 00015000 00:299 82                        /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f53975f7000-7f53975fe000 r-xp 00000000 00:299 6057                      /usr/lib/x86_64-linux-gnu/libffi.so.6.0.1
+7f53975fe000-7f53977fd000 ---p 00007000 00:299 6057                      /usr/lib/x86_64-linux-gnu/libffi.so.6.0.1
+7f53977fd000-7f53977fe000 r--p 00006000 00:299 6057                      /usr/lib/x86_64-linux-gnu/libffi.so.6.0.1
+7f53977fe000-7f53977ff000 rw-p 00007000 00:299 6057                      /usr/lib/x86_64-linux-gnu/libffi.so.6.0.1
+7f53977ff000-7f5397aae000 r-xp 00000000 00:299 406                       /usr/local/rvm/rubies/ruby-2.1.5/lib/libruby.so.2.1.0
+7f5397aae000-7f5397cad000 ---p 002af000 00:299 406                       /usr/local/rvm/rubies/ruby-2.1.5/lib/libruby.so.2.1.0
+7f5397cad000-7f5397cb2000 r--p 002ae000 00:299 406                       /usr/local/rvm/rubies/ruby-2.1.5/lib/libruby.so.2.1.0
+7f5397cb2000-7f5397cb5000 rw-p 002b3000 00:299 406                       /usr/local/rvm/rubies/ruby-2.1.5/lib/libruby.so.2.1.0
+7f5397cb5000-7f5397cdb000 rw-p 00000000 00:00 0 
+7f5397cdb000-7f5397cfd000 r-xp 00000000 00:299 29570                     /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi_c.so
+7f5397cfd000-7f5397efc000 ---p 00022000 00:299 29570                     /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi_c.so
+7f5397efc000-7f5397efd000 r--p 00021000 00:299 29570                     /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi_c.so
+7f5397efd000-7f5397efe000 rw-p 00022000 00:299 29570                     /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/ffi-1.9.6/lib/ffi_c.so
+7f5397efe000-7f5397eff000 rw-p 00000000 00:00 0 
+7f5397eff000-7f5397f00000 ---p 00000000 00:00 0 
+7f5397f00000-7f5398000000 rw-p 00000000 00:00 0 
+7f5398000000-7f5398024000 rw-p 00000000 00:00 0 
+7f5398024000-7f539c000000 ---p 00000000 00:00 0 
+7f539c000000-7f539c024000 rw-p 00000000 00:00 0 
+7f539c024000-7f53a0000000 ---p 00000000 00:00 0 
+7f53a0000000-7f53a0024000 rw-p 00000000 00:00 0 
+7f53a0024000-7f53a4000000 ---p 00000000 00:00 0 
+7f53a4000000-7f53a4024000 rw-p 00000000 00:00 0 
+7f53a4024000-7f53a8000000 ---p 00000000 00:00 0 
+7f53a8000000-7f53a8024000 rw-p 00000000 00:00 0 
+7f53a8024000-7f53ac000000 ---p 00000000 00:00 0 
+7f53ac000000-7f53ac024000 rw-p 00000000 00:00 0 
+7f53ac024000-7f53b0000000 ---p 00000000 00:00 0 
+7f53b0000000-7f53b0024000 rw-p 00000000 00:00 0 
+7f53b0024000-7f53b4000000 ---p 00000000 00:00 0 
+7f53b4000000-7f53b4024000 rw-p 00000000 00:00 0 
+7f53b4024000-7f53b8000000 ---p 00000000 00:00 0 
+7f53b8000000-7f53b8024000 rw-p 00000000 00:00 0 
+7f53b8024000-7f53bc000000 ---p 00000000 00:00 0 
+7f53bc000000-7f53bc024000 rw-p 00000000 00:00 0 
+7f53bc024000-7f53c0000000 ---p 00000000 00:00 0 
+7f53c0000000-7f53c0024000 rw-p 00000000 00:00 0 
+7f53c0024000-7f53c4000000 ---p 00000000 00:00 0 
+7f53c4000000-7f53c4024000 rw-p 00000000 00:00 0 
+7f53c4024000-7f53c8000000 ---p 00000000 00:00 0 
+7f53c8000000-7f53c8024000 rw-p 00000000 00:00 0 
+7f53c8024000-7f53cc000000 ---p 00000000 00:00 0 
+7f53cc000000-7f53cc024000 rw-p 00000000 00:00 0 
+7f53cc024000-7f53d0000000 ---p 00000000 00:00 0 
+7f53d0000000-7f53d0063000 rw-p 00000000 00:00 0 
+7f53d0063000-7f53d4000000 ---p 00000000 00:00 0 
+7f53d4000000-7f53d4024000 rw-p 00000000 00:00 0 
+7f53d4024000-7f53d8000000 ---p 00000000 00:00 0 
+7f53d8000000-7f53d8089000 rw-p 00000000 00:00 0                          [stack:32380]
+7f53d8089000-7f53dc000000 ---p 00000000 00:00 0 
+7f53dc000000-7f53dc198000 rw-p 00000000 00:00 0 
+7f53dc198000-7f53e0000000 ---p 00000000 00:00 0 
+7f53e0000000-7f53e0021000 rw-p 00000000 00:00 0 
+7f53e0021000-7f53e4000000 ---p 00000000 00:00 0 
+7f53e40a8000-7f53e41a9000 rw-p 00000000 00:00 0 
+7f53e41a9000-7f53e41aa000 ---p 00000000 00:00 0 
+7f53e41aa000-7f53e43ab000 rw-p 00000000 00:00 0                          [stack:32379]
+7f53e43ab000-7f53e43ac000 ---p 00000000 00:00 0 
+7f53e43ac000-7f53e45ad000 rw-p 00000000 00:00 0                          [stack:32377]
+7f53e45ad000-7f53e45ae000 ---p 00000000 00:00 0 
+7f53e45ae000-7f53e47af000 rw-p 00000000 00:00 0                          [stack:32376]
+7f53e47af000-7f53e47b0000 ---p 00000000 00:00 0 
+7f53e47b0000-7f53e49b1000 rw-p 00000000 00:00 0                          [stack:32375]
+7f53e49b1000-7f53e49b2000 ---p 00000000 00:00 0 
+7f53e49b2000-7f53e4bb3000 rw-p 00000000 00:00 0                          [stack:32374]
+7f53e4bb3000-7f53e4bb4000 ---p 00000000 00:00 0 
+7f53e4bb4000-7f53e4db5000 rw-p 00000000 00:00 0                          [stack:32372]
+7f53e4db5000-7f53e4db6000 ---p 00000000 00:00 0 
+7f53e4db6000-7f53e4fb7000 rw-p 00000000 00:00 0                          [stack:32371]
+7f53e4fb7000-7f53e4fb8000 ---p 00000000 00:00 0 
+7f53e4fb8000-7f53e51b9000 rw-p 00000000 00:00 0                          [stack:32370]
+7f53e51b9000-7f53e51ba000 ---p 00000000 00:00 0 
+7f53e51ba000-7f53e53bb000 rw-p 00000000 00:00 0                          [stack:32369]
+7f53e53bb000-7f53e53bc000 ---p 00000000 00:00 0 
+7f53e53bc000-7f53e55bd000 rw-p 00000000 00:00 0                          [stack:32368]
+7f53e55bd000-7f53e55be000 ---p 00000000 00:00 0 
+7f53e55be000-7f53e57bf000 rw-p 00000000 00:00 0                          [stack:32367]
+7f53e57bf000-7f53e57c0000 ---p 00000000 00:00 0 
+7f53e57c0000-7f53e59c1000 rw-p 00000000 00:00 0                          [stack:32366]
+7f53e59c1000-7f53e59c2000 ---p 00000000 00:00 0 
+7f53e59c2000-7f53e5bc3000 rw-p 00000000 00:00 0                          [stack:32365]
+7f53e5bc3000-7f53e5bc4000 ---p 00000000 00:00 0 
+7f53e5bc4000-7f53e5dc5000 rw-p 00000000 00:00 0                          [stack:32363]
+7f53e5dc5000-7f53e5dc6000 ---p 00000000 00:00 0 
+7f53e5dc6000-7f53e5fc7000 rw-p 00000000 00:00 0                          [stack:32362]
+7f53e5fc7000-7f53e5fc8000 ---p 00000000 00:00 0 
+7f53e5fc8000-7f53e6047000 rw-p 00000000 00:00 0 
+7f53e6047000-7f53e6048000 ---p 00000000 00:00 0 
+7f53e6048000-7f53e6249000 rw-p 00000000 00:00 0                          [stack:32361]
+7f53e6249000-7f53e624a000 ---p 00000000 00:00 0 
+7f53e624a000-7f53e644b000 rw-p 00000000 00:00 0                          [stack:32360]
+7f53e644b000-7f53e644c000 ---p 00000000 00:00 0 
+7f53e644c000-7f53e64cb000 rw-p 00000000 00:00 0 
+7f53e64cb000-7f53e64cc000 ---p 00000000 00:00 0 
+7f53e64cc000-7f53e66cd000 rw-p 00000000 00:00 0                          [stack:32359]
+7f53e66cd000-7f53e66ce000 ---p 00000000 00:00 0 
+7f53e66ce000-7f53e68cf000 rw-p 00000000 00:00 0                          [stack:32353]
+7f53e68cf000-7f53e68d0000 ---p 00000000 00:00 0 
+7f53e68d0000-7f53e6ad1000 rw-p 00000000 00:00 0                          [stack:32351]
+7f53e6ad1000-7f53e6ad2000 r-xp 00000000 00:299 45339                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16be.so
+7f53e6ad2000-7f53e6cd2000 ---p 00001000 00:299 45339                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16be.so
+7f53e6cd2000-7f53e6cd3000 r--p 00001000 00:299 45339                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16be.so
+7f53e6cd3000-7f53e6cd4000 rw-p 00002000 00:299 45339                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16be.so
+7f53e6cd4000-7f53e6cd5000 r-xp 00000000 00:299 45337                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16le.so
+7f53e6cd5000-7f53e6ed5000 ---p 00001000 00:299 45337                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16le.so
+7f53e6ed5000-7f53e6ed6000 r--p 00001000 00:299 45337                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16le.so
+7f53e6ed6000-7f53e6ed7000 rw-p 00002000 00:299 45337                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/utf_16le.so
+7f53e6ed7000-7f53e6eee000 r-xp 00000000 00:299 45333                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/single_byte.so
+7f53e6eee000-7f53e70ed000 ---p 00017000 00:299 45333                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/single_byte.so
+7f53e70ed000-7f53e70f2000 r--p 00016000 00:299 45333                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/single_byte.so
+7f53e70f2000-7f53e70f3000 rw-p 0001b000 00:299 45333                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/single_byte.so
+7f53e70f3000-7f53e70f7000 r-xp 00000000 00:299 45277                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/io/console.so
+7f53e70f7000-7f53e72f6000 ---p 00004000 00:299 45277                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/io/console.so
+7f53e72f6000-7f53e72f7000 r--p 00003000 00:299 45277                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/io/console.so
+7f53e72f7000-7f53e72f8000 rw-p 00004000 00:299 45277                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/io/console.so
+7f53e72f8000-7f53e731d000 r-xp 00000000 00:299 64                        /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f53e731d000-7f53e751c000 ---p 00025000 00:299 64                        /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f53e751c000-7f53e7520000 r--p 00024000 00:299 64                        /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f53e7520000-7f53e7521000 rw-p 00028000 00:299 64                        /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f53e7521000-7f53e755e000 r-xp 00000000 00:299 732                       /lib/x86_64-linux-gnu/libreadline.so.6.3
+7f53e755e000-7f53e775e000 ---p 0003d000 00:299 732                       /lib/x86_64-linux-gnu/libreadline.so.6.3
+7f53e775e000-7f53e7760000 r--p 0003d000 00:299 732                       /lib/x86_64-linux-gnu/libreadline.so.6.3
+7f53e7760000-7f53e7766000 rw-p 0003f000 00:299 732                       /lib/x86_64-linux-gnu/libreadline.so.6.3
+7f53e7766000-7f53e7767000 rw-p 00000000 00:00 0 
+7f53e7767000-7f53e776e000 r-xp 00000000 00:299 45356                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/readline.so
+7f53e776e000-7f53e796d000 ---p 00007000 00:299 45356                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/readline.so
+7f53e796d000-7f53e796e000 r--p 00006000 00:299 45356                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/readline.so
+7f53e796e000-7f53e796f000 rw-p 00007000 00:299 45356                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/readline.so
+7f53e796f000-7f53e7972000 r-xp 00000000 00:299 28910                     /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/2.0/hitimes.so
+7f53e7972000-7f53e7b72000 ---p 00003000 00:299 28910                     /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/2.0/hitimes.so
+7f53e7b72000-7f53e7b73000 r--p 00003000 00:299 28910                     /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/2.0/hitimes.so
+7f53e7b73000-7f53e7b74000 rw-p 00004000 00:299 28910                     /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/hitimes-1.2.2/lib/hitimes/2.0/hitimes.so
+7f53e7b74000-7f53e7b75000 r-xp 00000000 00:299 45347                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fiber.so
+7f53e7b75000-7f53e7d74000 ---p 00001000 00:299 45347                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fiber.so
+7f53e7d74000-7f53e7d75000 r--p 00000000 00:299 45347                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fiber.so
+7f53e7d75000-7f53e7d76000 rw-p 00001000 00:299 45347                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fiber.so
+7f53e7d76000-7f53e7d95000 r-xp 00000000 00:299 902                       /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.2
+7f53e7d95000-7f53e7f94000 ---p 0001f000 00:299 902                       /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.2
+7f53e7f94000-7f53e7f95000 r--p 0001e000 00:299 902                       /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.2
+7f53e7f95000-7f53e7f96000 rw-p 0001f000 00:299 902                       /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.2
+7f53e7f96000-7f53e7f9c000 r-xp 00000000 00:299 45352                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/psych.so
+7f53e7f9c000-7f53e819b000 ---p 00006000 00:299 45352                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/psych.so
+7f53e819b000-7f53e819c000 r--p 00005000 00:299 45352                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/psych.so
+7f53e819c000-7f53e819d000 rw-p 00006000 00:299 45352                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/psych.so
+7f53e819d000-7f53e81d3000 r-xp 00000000 00:299 45354                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/date_core.so
+7f53e81d3000-7f53e83d3000 ---p 00036000 00:299 45354                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/date_core.so
+7f53e83d3000-7f53e83d4000 r--p 00036000 00:299 45354                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/date_core.so
+7f53e83d4000-7f53e83d5000 rw-p 00037000 00:299 45354                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/date_core.so
+7f53e83d5000-7f53e83d7000 rw-p 00000000 00:00 0 
+7f53e83d7000-7f53e83dd000 r-xp 00000000 00:299 45284                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/strscan.so
+7f53e83dd000-7f53e85dc000 ---p 00006000 00:299 45284                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/strscan.so
+7f53e85dc000-7f53e85dd000 r--p 00005000 00:299 45284                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/strscan.so
+7f53e85dd000-7f53e85de000 rw-p 00006000 00:299 45284                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/strscan.so
+7f53e85de000-7f53e85e5000 r-xp 00000000 00:299 45350                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/stringio.so
+7f53e85e5000-7f53e87e5000 ---p 00007000 00:299 45350                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/stringio.so
+7f53e87e5000-7f53e87e6000 r--p 00007000 00:299 45350                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/stringio.so
+7f53e87e6000-7f53e87e7000 rw-p 00008000 00:299 45350                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/stringio.so
+7f53e87e7000-7f53e883b000 r-xp 00000000 00:299 738                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+7f53e883b000-7f53e8a3b000 ---p 00054000 00:299 738                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+7f53e8a3b000-7f53e8a3e000 r--p 00054000 00:299 738                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+7f53e8a3e000-7f53e8a45000 rw-p 00057000 00:299 738                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+7f53e8a45000-7f53e8a95000 r-xp 00000000 00:299 45349                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/openssl.so
+7f53e8a95000-7f53e8c95000 ---p 00050000 00:299 45349                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/openssl.so
+7f53e8c95000-7f53e8c96000 r--p 00050000 00:299 45349                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/openssl.so
+7f53e8c96000-7f53e8c98000 rw-p 00051000 00:299 45349                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/openssl.so
+7f53e8c98000-7f53e8c99000 rw-p 00000000 00:00 0 
+7f53e8c99000-7f53e8c9a000 r-xp 00000000 00:299 45370                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fcntl.so
+7f53e8c9a000-7f53e8e99000 ---p 00001000 00:299 45370                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fcntl.so
+7f53e8e99000-7f53e8e9a000 r--p 00000000 00:299 45370                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fcntl.so
+7f53e8e9a000-7f53e8e9b000 rw-p 00001000 00:299 45370                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/fcntl.so
+7f53e8e9b000-7f53e8ec0000 r-xp 00000000 00:299 45353                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/socket.so
+7f53e8ec0000-7f53e90bf000 ---p 00025000 00:299 45353                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/socket.so
+7f53e90bf000-7f53e90c0000 r--p 00024000 00:299 45353                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/socket.so
+7f53e90c0000-7f53e90c1000 rw-p 00025000 00:299 45353                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/socket.so
+7f53e90c1000-7f53e90c4000 r-xp 00000000 00:299 45366                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest.so
+7f53e90c4000-7f53e92c4000 ---p 00003000 00:299 45366                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest.so
+7f53e92c4000-7f53e92c5000 r--p 00003000 00:299 45366                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest.so
+7f53e92c5000-7f53e92c6000 rw-p 00004000 00:299 45366                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest.so
+7f53e92c6000-7f53e9477000 r-xp 00000000 00:299 739                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7f53e9477000-7f53e9676000 ---p 001b1000 00:299 739                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7f53e9676000-7f53e9691000 r--p 001b0000 00:299 739                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7f53e9691000-7f53e969c000 rw-p 001cb000 00:299 739                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7f53e969c000-7f53e96a0000 rw-p 00000000 00:00 0 
+7f53e96a0000-7f53e96a1000 r-xp 00000000 00:299 45361                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest/sha1.so
+7f53e96a1000-7f53e98a0000 ---p 00001000 00:299 45361                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest/sha1.so
+7f53e98a0000-7f53e98a1000 r--p 00000000 00:299 45361                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest/sha1.so
+7f53e98a1000-7f53e98a2000 rw-p 00001000 00:299 45361                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/digest/sha1.so
+7f53e98a2000-7f53e98a5000 r-xp 00000000 00:299 45357                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/etc.so
+7f53e98a5000-7f53e9aa4000 ---p 00003000 00:299 45357                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/etc.so
+7f53e9aa4000-7f53e9aa5000 r--p 00002000 00:299 45357                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/etc.so
+7f53e9aa5000-7f53e9aa6000 rw-p 00003000 00:299 45357                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/etc.so
+7f53e9aa6000-7f53e9aac000 r-xp 00000000 00:299 45345                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/pathname.so
+7f53e9aac000-7f53e9cac000 ---p 00006000 00:299 45345                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/pathname.so
+7f53e9cac000-7f53e9cad000 r--p 00006000 00:299 45345                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/pathname.so
+7f53e9cad000-7f53e9cae000 rw-p 00007000 00:299 45345                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/pathname.so
+7f53e9cae000-7f53e9cb0000 r-xp 00000000 00:299 45319                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/transdb.so
+7f53e9cb0000-7f53e9eb0000 ---p 00002000 00:299 45319                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/transdb.so
+7f53e9eb0000-7f53e9eb1000 r--p 00002000 00:299 45319                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/transdb.so
+7f53e9eb1000-7f53e9eb2000 rw-p 00003000 00:299 45319                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/trans/transdb.so
+7f53e9eb2000-7f53e9eb4000 r-xp 00000000 00:299 45313                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/encdb.so
+7f53e9eb4000-7f53ea0b3000 ---p 00002000 00:299 45313                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/encdb.so
+7f53ea0b3000-7f53ea0b4000 r--p 00001000 00:299 45313                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/encdb.so
+7f53ea0b4000-7f53ea0b5000 rw-p 00002000 00:299 45313                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/lib/ruby/2.0.0/x86_64-linux/enc/encdb.so
+7f53ea0b5000-7f53ea270000 r-xp 00000000 00:299 38                        /lib/x86_64-linux-gnu/libc-2.19.so
+7f53ea270000-7f53ea470000 ---p 001bb000 00:299 38                        /lib/x86_64-linux-gnu/libc-2.19.so
+7f53ea470000-7f53ea474000 r--p 001bb000 00:299 38                        /lib/x86_64-linux-gnu/libc-2.19.so
+7f53ea474000-7f53ea476000 rw-p 001bf000 00:299 38                        /lib/x86_64-linux-gnu/libc-2.19.so
+7f53ea476000-7f53ea47b000 rw-p 00000000 00:00 0 
+7f53ea47b000-7f53ea580000 r-xp 00000000 00:299 81                        /lib/x86_64-linux-gnu/libm-2.19.so
+7f53ea580000-7f53ea77f000 ---p 00105000 00:299 81                        /lib/x86_64-linux-gnu/libm-2.19.so
+7f53ea77f000-7f53ea780000 r--p 00104000 00:299 81                        /lib/x86_64-linux-gnu/libm-2.19.so
+7f53ea780000-7f53ea781000 rw-p 00105000 00:299 81                        /lib/x86_64-linux-gnu/libm-2.19.so
+7f53ea781000-7f53ea78a000 r-xp 00000000 00:299 408                       /lib/x86_64-linux-gnu/libcrypt-2.19.so
+7f53ea78a000-7f53ea98a000 ---p 00009000 00:299 408                       /lib/x86_64-linux-gnu/libcrypt-2.19.so
+7f53ea98a000-7f53ea98b000 r--p 00009000 00:299 408                       /lib/x86_64-linux-gnu/libcrypt-2.19.so
+7f53ea98b000-7f53ea98c000 rw-p 0000a000 00:299 408                       /lib/x86_64-linux-gnu/libcrypt-2.19.so
+7f53ea98c000-7f53ea9ba000 rw-p 00000000 00:00 0 
+7f53ea9ba000-7f53ea9bd000 r-xp 00000000 00:299 66                        /lib/x86_64-linux-gnu/libdl-2.19.so
+7f53ea9bd000-7f53eabbc000 ---p 00003000 00:299 66                        /lib/x86_64-linux-gnu/libdl-2.19.so
+7f53eabbc000-7f53eabbd000 r--p 00002000 00:299 66                        /lib/x86_64-linux-gnu/libdl-2.19.so
+7f53eabbd000-7f53eabbe000 rw-p 00003000 00:299 66                        /lib/x86_64-linux-gnu/libdl-2.19.so
+7f53eabbe000-7f53eabc5000 r-xp 00000000 00:299 75                        /lib/x86_64-linux-gnu/librt-2.19.so
+7f53eabc5000-7f53eadc4000 ---p 00007000 00:299 75                        /lib/x86_64-linux-gnu/librt-2.19.so
+7f53eadc4000-7f53eadc5000 r--p 00006000 00:299 75                        /lib/x86_64-linux-gnu/librt-2.19.so
+7f53eadc5000-7f53eadc6000 rw-p 00007000 00:299 75                        /lib/x86_64-linux-gnu/librt-2.19.so
+7f53eadc6000-7f53eaddf000 r-xp 00000000 00:299 84                        /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f53eaddf000-7f53eafde000 ---p 00019000 00:299 84                        /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f53eafde000-7f53eafdf000 r--p 00018000 00:299 84                        /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f53eafdf000-7f53eafe0000 rw-p 00019000 00:299 84                        /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f53eafe0000-7f53eafe4000 rw-p 00000000 00:00 0 
+7f53eafe4000-7f53eb007000 r-xp 00000000 00:299 35                        /lib/x86_64-linux-gnu/ld-2.19.so
+7f53eb00e000-7f53eb00f000 rw-p 00000000 00:00 0 
+7f53eb00f000-7f53eb010000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb010000-7f53eb011000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb011000-7f53eb012000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb012000-7f53eb013000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb013000-7f53eb014000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb014000-7f53eb015000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb015000-7f53eb016000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb016000-7f53eb017000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb017000-7f53eb018000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb018000-7f53eb019000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb019000-7f53eb01a000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb01a000-7f53eb01b000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb01b000-7f53eb01c000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb01c000-7f53eb01d000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb01d000-7f53eb01e000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb01e000-7f53eb01f000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb01f000-7f53eb020000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb020000-7f53eb021000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb021000-7f53eb022000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb022000-7f53eb023000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb023000-7f53eb024000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb024000-7f53eb025000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb025000-7f53eb026000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb026000-7f53eb027000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb027000-7f53eb028000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb028000-7f53eb029000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb029000-7f53eb02a000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb02a000-7f53eb02b000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb02b000-7f53eb02c000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb02c000-7f53eb02d000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb02d000-7f53eb02e000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb02e000-7f53eb02f000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb02f000-7f53eb030000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb030000-7f53eb031000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb031000-7f53eb032000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb032000-7f53eb033000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb033000-7f53eb034000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb034000-7f53eb035000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb035000-7f53eb036000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb036000-7f53eb037000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb037000-7f53eb038000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb038000-7f53eb039000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb039000-7f53eb03a000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb03a000-7f53eb03b000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb03b000-7f53eb03c000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb03c000-7f53eb03d000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb03d000-7f53eb03e000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb03e000-7f53eb03f000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb03f000-7f53eb040000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb040000-7f53eb041000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb041000-7f53eb042000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb042000-7f53eb043000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb043000-7f53eb044000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb044000-7f53eb045000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb045000-7f53eb046000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb046000-7f53eb047000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb047000-7f53eb048000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb048000-7f53eb049000 ---p 00000000 00:00 0 
+7f53eb049000-7f53eb1c9000 rw-p 00000000 00:00 0 
+7f53eb1c9000-7f53eb1ef000 r--p 00000000 00:299 131                       /usr/lib/locale/C.UTF-8/LC_CTYPE
+7f53eb1ef000-7f53eb1f4000 rw-p 00000000 00:00 0 
+7f53eb1f4000-7f53eb1f5000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb1f5000-7f53eb1f6000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb1f6000-7f53eb1f7000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb1f7000-7f53eb1f8000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb1f8000-7f53eb1f9000 r--s 00000000 00:299 29513                     /usr/local/rvm/gems/ruby-2.1.5@rails4/bin/guard
+7f53eb1f9000-7f53eb1fa000 ---p 00000000 00:00 0 
+7f53eb1fa000-7f53eb1fd000 rw-p 00000000 00:00 0                          [stack:31786]
+7f53eb1fd000-7f53eb204000 r--s 00000000 00:299 119                       /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7f53eb204000-7f53eb206000 rw-p 00000000 00:00 0 
+7f53eb206000-7f53eb207000 r--p 00022000 00:299 35                        /lib/x86_64-linux-gnu/ld-2.19.so
+7f53eb207000-7f53eb208000 rw-p 00023000 00:299 35                        /lib/x86_64-linux-gnu/ld-2.19.so
+7f53eb208000-7f53eb209000 rw-p 00000000 00:00 0 
+7f53eb209000-7f53eb4b7000 r-xp 00000000 00:299 45262                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/bin/ruby
+7f53eb6b6000-7f53eb6bb000 r--p 002ad000 00:299 45262                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/bin/ruby
+7f53eb6bb000-7f53eb6bd000 rw-p 002b2000 00:299 45262                     /home/ubuntu/.anyenv/envs/rbenv/versions/2.0.0-p598/bin/ruby
+7f53eb6bd000-7f53eb6de000 rw-p 00000000 00:00 0 
+7f53ed08a000-7f53eeed7000 rw-p 00000000 00:00 0                          [heap]
+7fff66802000-7fff66823000 rw-p 00000000 00:00 0                          [stack]
+7fff66946000-7fff66948000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+
+[NOTE]
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+Bug reports are welcome.
+For details: http://www.ruby-lang.org/bugreport.html
+
